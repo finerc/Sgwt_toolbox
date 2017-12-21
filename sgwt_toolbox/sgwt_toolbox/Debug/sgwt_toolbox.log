@@ -1,0 +1,17 @@
+﻿  sgwt_toolbox.cpp
+c:\users\pc\documents\visual studio 2015\projects\sgwt_toolbox\sgwt_toolbox\sgwt_toolbox.cpp(10): error C2597: 对非静态成员“Eigen::MatrixBase<Derived>::size”的非法引用
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+c:\users\pc\documents\visual studio 2015\projects\sgwt_toolbox\sgwt_toolbox\sgwt_toolbox.cpp(10): error C3867: “Eigen::MatrixBase<Derived>::size”: 非标准语法；请使用 "&" 来创建指向成员的指针
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+c:\users\pc\documents\visual studio 2015\projects\sgwt_toolbox\sgwt_toolbox\sgwt_toolbox.cpp(10): error C2568: “=”: 无法解析函数重载
+  c:\users\pc\documents\visual studio 2015\projects\sgwt_toolbox\sgwt_toolbox\sgwt_toolbox.cpp(10): note: 可能是“int Eigen::EigenBase<Derived>::size(void) const”
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
